@@ -1,4 +1,0 @@
-django
-pypdf2
-ImageMagick
-wand

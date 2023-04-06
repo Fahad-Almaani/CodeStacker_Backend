@@ -5,7 +5,6 @@ from rest_framework import routers
 router = routers.DefaultRouter()
 router.register(r'pdfs', AddPdf, basename="pdf") 
 router.register(r'search', SearchViewSet, basename="search") 
-router.register(r'delete', DeleteAllData, basename="delete") 
 router.register(r'Sentences', SentencesViewSet, basename="Sentences") 
 # router.register(r'download-pdf', PdfDownloadView, basename="download-pdf") 
 urlpatterns = [

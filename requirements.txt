@@ -1,0 +1,5 @@
+Django==4.1.6
+djangorestframework==3.14.0
+PyPDF2==3.0.1
+PyMuPDF==1.21.1
+nltk==3.8.1

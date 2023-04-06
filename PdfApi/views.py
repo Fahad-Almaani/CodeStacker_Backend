@@ -18,8 +18,6 @@ import nltk
 nltk.download("stopwords")
 from nltk.corpus import stopwords
 # from wand.image import Image
-from pdf2image import convert_from_path
-from io import BytesIO
 import os
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.authentication import BasicAuthentication
@@ -222,10 +220,3 @@ class PageImgView(APIView):
 
 
 
-class DeleteAllData(ModelViewSet):
-    queryset = PdfDocument.objects.all()
-    serializer_class = PdfDocumentSerializer
-    def create(self,request,*args):
-        PdfDocument.objects.all().delete()
-        Sentence.objects.all().delete()
-        return Response("Deleted")

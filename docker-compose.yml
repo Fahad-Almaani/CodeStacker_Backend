@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  django:
+    image: pdf-api:0.0.1
+    build: .
+    environment:
+      DEBUG: "False"
+    ports:
+      - "8000:8000"
