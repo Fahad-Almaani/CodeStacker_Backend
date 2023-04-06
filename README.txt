@@ -5,9 +5,18 @@ happy to particpate
 This Backend Api Built with Django
 these are the the urls avalibel
 
+
+How To Run:
+    after downloading the files 
+    create the docker container with this command:
+        -docker compose up --build
+    then the server will be runing on the local host port 8000
+    **enjoy testing
+        
+
 all urls using basic Auth passing [username=fahad,password=5005]
 
-in postman testing make sure you use BaisckAuth
+in postman testing make sure you use BasickAuth
                                |                   |
 urls                           |  Method           |  body params
 -------------------------------------------------------------------
@@ -29,6 +38,7 @@ urls                           |  Method           |  body params
 # Notes
  - seting fixed username and password to make things quick
  - If you know Django I was traing to use diffrent types of View out of changes :\
+ - I am using sqlite to make it smoth but it can be replaced essaly with mysql or other options 
 
 Contacts:
 Phone: 90943436
