@@ -35,11 +35,4 @@ urls                           |  Method           |  body params
 
 
 
-# Notes
- - seting fixed username and password to make things quick
- - If you know Django I was traing to use diffrent types of View out of changes :\
- - I am using sqlite to make it smoth but it can be replaced essaly with mysql or other options 
 
-Contacts:
-Phone: 90943436
-gmail: fahad.almaani.fa@gmail.com
